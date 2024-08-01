@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "<NAME>"
+    },
+    {
+        "Name": "<NAME>",
+        "bool_1": true,
+        "x": null,
+        "y": null
+    }
+]
