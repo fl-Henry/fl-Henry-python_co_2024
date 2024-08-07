@@ -140,7 +140,7 @@ students = [
 result = best_student(students)
 print(result)
 
-result = best_student(students)
+result = best_student(students, 22)
 print(result)
 
 result = best_student(students)

@@ -58,9 +58,35 @@ import random
 # # print(j)
 
 
-str_ = 'abcdefg'
-print(len(str_))
-print(len(str_) - 1)
-index = random.randint(0, len(str_) - 1)
-print(index)
-print(str_[index])
+# str_ = 'abcdefg'
+# print(len(str_))
+# print(len(str_) - 1)
+# index = random.randint(0, len(str_) - 1)
+# print(index)
+# print(str_[index])
+
+#
+# for index in range(8):  # [0, ..., 7]
+#
+#     print("index start for = ", index)
+#     index = 666
+#     j = 2 * index
+#     print("index = ", index, "j = ", j)
+
+print(list(range(8)))
+print(list(range(0, 8)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
