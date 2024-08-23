@@ -49,9 +49,7 @@ class TicTacGame:
     def run(self):
         
         available = list(range(3))
-        print(available)
-        import sys
-        sys.exit()
+
         
         # Логика игры
         while not self.check():
