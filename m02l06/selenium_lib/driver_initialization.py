@@ -1,3 +1,4 @@
+import time
 from typing import Union, Literal
 from fake_headers import Headers
 
@@ -114,3 +115,9 @@ class Initializer:
         """Returns driver instance"""
         driver = self.set_driver_for_browser(self.browser_name)
         return driver
+
+
+if __name__ == '__main__':
+    driver = Initializer('firefox', False).init()
+    driver.get('https://pypi.org/project/undetected-chromedriver/')
+    time.sleep(50)
