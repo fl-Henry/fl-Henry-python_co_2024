@@ -7,7 +7,7 @@
 # if  number >= 0:
 #     print('ok')
 #
-# elif number == str():
+# elif number == str():j
 #      print("not ok")
 #
 # else:
