@@ -1,0 +1,18 @@
+services:
+  postgres:
+    image: postgres:16.4
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: db
+      PGDATA: /usr/app/data/pg_data
+    ports:
+      - 5432:5432
+    volumes:
+      - ./data/pg_data:/usr/app/data/pg_data
+#      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  adminer:
+    image: adminer
+    ports:
+      - 8080:8080
