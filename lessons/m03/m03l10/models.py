@@ -5,6 +5,7 @@ Base = declarative_base()
 
 
 class User(Base):
+
     __tablename__ = 'users'  # Имя таблицы в базе данных
 
     id = Column(Integer, primary_key=True)  # Поле для уникального идентификатора

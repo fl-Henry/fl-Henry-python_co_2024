@@ -12,12 +12,12 @@ session = Session()
 
 create_tables(engine)
 
-# Создаем нового пользователя
-new_user = User(id='15s', name='John Doe', email='john@example.com')
-# Добавляем пользователя в сессию
-session.add(new_user)
-# Сохраняем изменения в базе данных
-session.commit()
+# # Создаем нового пользователя
+# new_user = User(id='15s', name='John Doe', email='john@example.com')
+# # Добавляем пользователя в сессию
+# session.add(new_user)
+# # Сохраняем изменения в базе данных
+# session.commit()
 
 
 # new_users = [
@@ -36,6 +36,8 @@ session.commit()
 
 # users = session.query(User).filter_by(note='Default note').all()
 # print("users:", users)
+# print(users[0].__dict__)
+
 #
 # if users:
 #     for user, index in zip(users, range(len(users))):
@@ -49,3 +51,5 @@ session.commit()
 #     .update({"email": "updated@example.com"}, synchronize_session=False)
 #
 # session.commit()
+
+
