@@ -66,22 +66,3 @@ import numpy as np
 # print(array2.sum())
 # # print([1, 2, 3].sum())
 
-import time
-
-# Создание большой матрицы
-A = np.random.rand(1000, 1000)
-
-# Векторизация
-start_time = time.time()
-result_vectorized = np.square(A)
-end_time = time.time()
-print("Векторизация время:", end_time - start_time)
-
-# Цикл Python
-result_loop = np.empty_like(A)
-start_time = time.time()
-for i in range(A.shape[0]):
-    for j in range(A.shape[1]):
-        result_loop[i, j] = A[i, j] ** 2
-end_time = time.time()
-print("Цикл Python время:", end_time - start_time)
