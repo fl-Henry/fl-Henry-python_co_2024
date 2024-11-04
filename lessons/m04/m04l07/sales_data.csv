@@ -1,0 +1,31 @@
+Order ID,Product,Quantity,Price,Order Date,Customer ID,City
+1001,Laptop,1,1200.00,2023-01-15,C001,New York
+1002,Smartphone,2,800.00,2023-01-20,C002,Los Angeles
+1003,Tablet,3,300.00,2023-02-05,C003,Chicago
+1004,Laptop,1,1200.00,2023-02-15,C004,New York
+1005,Smartwatch,5,150.00,2023-03-10,C005,Miami
+1006,Laptop,2,,2023-03-15,C006,San Francisco
+1007,Smartphone,1,800.00,2023-03-20,C007,Los Angeles
+1008,Tablet,4,300.00,2023-04-01,C008,Chicago
+1009,Laptop,1,1200.00,2023-04-10,C009,New York
+1010,Smartwatch,2,150.00,2023-04-15,C010,Miami
+1011,Laptop,1,1200.00,2023-05-05,,New York
+1012,Smartphone,1,800.00,2023-05-10,C002,Los Angeles
+1013,Tablet,2,300.00,2023-05-15,C003,Chicago
+1014,Smartwatch,3,150.00,2023-06-01,C005,Miami
+1015,Laptop,1,1200.00,2023-06-10,C006,San Francisco
+1016,Smartphone,2,800.00,2023-06-15,C007,Los Angeles
+1017,Tablet,5,300.00,05/08/2023,C008,Chicago
+1018,Laptop,1,1200.00,2023-07-10,C009,New York
+1019,Smartwatch,1,150.00,2023-07-15,C010,Miami
+1020,Laptop,3,1200.00,2023-08-01,C001,New York
+1021,Smartphone,2,800.00,2023-08-05,C002,Los Angeles
+1022,Tablet,1,300.00,2023-08-10,C003,Chicago
+1023,Smartwatch,4,150.00,2023-09-01,C005,Miami
+1024,Laptop,2,1200.00,2023-09-10,C006,San Francisco
+1025,Smartphone,3,800.00,2023-09-15,,Los Angeles
+1026,Tablet,6,300.00,2023-10-01,C008,Chicago
+1027,Laptop,1,1200.00,,C009,New York
+1028,Smartwatch,5,150.00,2023-10-10,C010,Miami
+1029,Laptop,1,1200.00,2023-11-01,C001,New York
+1030,Smartphone,2,800.00,2023-11-05,C002,Los Angeles
